@@ -9,6 +9,9 @@
 # Python BUgs
 # https://bugs.python.org/issue45540
 
+# Reference Article
+# https://towardsdatascience.com/understanding-python-imports-init-py-and-pythonpath-once-and-for-all-4c5249ab6355
+
 
 # This should work now
 from project import Teacher
