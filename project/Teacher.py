@@ -1,4 +1,6 @@
-import Student
+# Once we've modularized a folder Python requires us to explicitly 
+# state the path.
+from project import Student
 
 class Teacher:
     def __init__(self, prefix, first_name, last_name, subject, height, weight__fat):
@@ -18,3 +20,4 @@ class Teacher:
     def assign(self, student: Student):
         if type(student) != Student:
             pass
+
